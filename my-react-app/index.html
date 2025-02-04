@@ -5,9 +5,12 @@
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vite + React</title>
+    <!-- Add base path if your app is hosted on a sub-path, like GitHub Pages -->
+    <base href="/react_application/">
   </head>
   <body>
     <div id="root"></div>
-    <script type="module" src="/src/main.jsx"></script>
+    <!-- When you build the project, the build files will be served from the build folder -->
+    <script type="module" src="/assets/index.js"></script>
   </body>
 </html>
